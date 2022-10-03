@@ -18,12 +18,12 @@ SQLAlchemy is a Python SQL tooklit that allows a lot of flexibility with databas
 1) Clone or download this repo, saving the files to a directory
 2) Open terminal and CD into the directory of the downloaded files.
 3) Enter the following lines into your terminal.
-> python3 -m venv venv
-> . venv/bin/activate
-> pip install Flask
-> pip install Flask-SQLAlchemy
-> export FLASK_APP=app.py
-> export FLASK_ENV=development
+> python3 -m venv venv <br/>
+> . venv/bin/activate<br/>
+> pip install Flask<br/>
+> pip install Flask-SQLAlchemy<br/>
+> export FLASK_APP=app.py<br/>
+> export FLASK_ENV=development<br/>
 > python app.py
 4) Open the link (similar to http://127.0.0.1:5000) that pops up in your terminal.
 
